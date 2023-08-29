@@ -1,0 +1,54 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Comfortaa, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: DarkSlateGray;
+
+}
+
+body{
+    height: auto;
+    background-image: url("37583mariecuriecolor.jpg") no-repeat cover .3;
+    background-size: 50px 100px;
+    
+}
+
+#cabecalho {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: DarkSlateGray;
+    padding-bottom: 25px;
+}
+
+#cabecalho h1 {
+    font-size: 48pt;
+}
+#foto img {
+    width:1000-px;
+}
+
+#descricao
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+
+}
+h3{
+    color: antiquewhite;
+}
+h2{
+    color: antiquewhite;
+}
+h1{
+    text-shadow: 5px 10px 10px greenyellow;
+}
